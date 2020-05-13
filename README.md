@@ -19,7 +19,7 @@ Process:
 
 ![Step 2](https://github.com/JulianSaturno/RPi-Photobooth/blob/master/images/picamera.png)
 
-- With the implementation of a libary, where the ones represent a segment of the display, we can call a for loop to flash a number of our choosing for a certain amount of time
+- With the implementation of a dictionary, where the ones represent a segment of the display, we can call a for loop to flash a number of our choosing for a certain amount of time
 
 ![Step 3](https://github.com/JulianSaturno/RPi-Photobooth/blob/master/images/segment.png)
 
@@ -30,3 +30,26 @@ Process:
 - Firing the new machine gives us a nice Twitter post with our collage of photos and a collegiate logo
 
 ![Step 5](https://github.com/JulianSaturno/RPi-Photobooth/blob/master/images/twitterpost.png)
+
+## How I built it
+- Python, Raspberry Pi, PiCamera, Seven-Segment Display, Push Button
+
+- Libraries and APIs: PILLOW, Twitter API
+
+## Challenges I ran into
+Global variable use within defined functions
+
+## Accomplishments that I'm proud of
+Finishing a fun project that works
+Implementing dictionary to call upon numbers
+Working with APIs for the first time
+
+## What I learned
+How to overlay images onto each other using PILLOW
+Deeper knowledge of Python and breadboarding
+How to troubleshoot code
+How to separate a project into smaller parts
+
+## What's next for RPi Photobooth?
+Capturing video, selecting random filters, and uploading to Tiktok
+Fix pictures being distorted from resize
